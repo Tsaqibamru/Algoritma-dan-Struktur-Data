@@ -1,0 +1,330 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "contacts": {
+            "email": "john.doe@example.com",
+            "phone": ["+1234567890", "+0987654321"],
+            "address": {
+                "home": {
+                    "street": "123 Main St",
+                    "city": "New York",
+                    "zip": "10001"
+                },
+                "work": {
+                    "street": "456 Corporate Blvd",
+                    "city": "New York",
+                    "zip": "10002"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P001",
+                "title": "AI Research",
+                "tasks": [
+                    {
+                        "task_id": "T001",
+                        "description": "Data collection",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T002",
+                        "description": "Model training",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "contacts": {
+            "email": "jane.smith@example.com",
+            "phone": ["+1987654321"],
+            "address": {
+                "home": {
+                    "street": "789 Sunset Blvd",
+                    "city": "Los Angeles",
+                    "zip": "90001"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P002",
+                "title": "Web Development",
+                "tasks": [
+                    {
+                        "task_id": "T003",
+                        "description": "UI design",
+                        "status": "not started"
+                    },
+                    {
+                        "task_id": "T004",
+                        "description": "Backend integration",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "contacts": {
+            "email": "michael.brown@example.com",
+            "phone": [],
+            "address": {
+                "home": {
+                    "street": "321 Ocean Drive",
+                    "city": "Miami",
+                    "zip": "33101"
+                }
+            }
+        },
+        "projects": []
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "contacts": {
+            "email": "emily.davis@example.com",
+            "phone": ["+1231231234"],
+            "address": {
+                "home": {
+                    "street": "444 Elm St",
+                    "city": "Chicago",
+                    "zip": "60601"
+                },
+                "vacation": {
+                    "street": "555 Pine St",
+                    "city": "Orlando",
+                    "zip": "32801"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P003",
+                "title": "Marketing Campaign",
+                "tasks": [
+                    {
+                        "task_id": "T005",
+                        "description": "Content creation",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T006",
+                        "description": "Social media promotion",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "David Wilson",
+        "contacts": {
+            "email": "david.wilson@example.com",
+            "phone": ["+9999999999"],
+            "address": {
+                "home": {
+                    "street": "987 Birch Lane",
+                    "city": "Seattle",
+                    "zip": "98101"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P004",
+                "title": "Blockchain Development",
+                "status": "completed",
+                "tasks": [
+                    {
+                        "task_id": "T007",
+                        "description": "Smart contract design",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T008",
+                        "description": "Token integration",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Sophia Martinez",
+        "contacts": {
+            "email": "sophia.martinez@example.com",
+            "phone": [
+                "+8888888888",
+                "+7777777777"
+            ],
+            "address": {
+                "home": {
+                    "street": "678 Maple Ave",
+                    "city": "Austin",
+                    "zip": "73301"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P005",
+                "title": "Mobile App Development",
+                "tasks": [
+                    {
+                        "task_id": "T009",
+                        "description": "UI/UX Design",
+                        "status": "in-progress"
+                    },
+                    {
+                        "task_id": "T010",
+                        "description": "API Integration",
+                        "status": "not started"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Chris Johnson",
+        "contacts": {
+            "email": "chris.johnson@example.com",
+            "phone": [
+                "+6666666666"
+            ],
+            "address": {
+                "home": {
+                    "street": "432 Spruce Rd",
+                    "city": "Denver",
+                    "zip": "80201"
+                },
+                "work": {
+                    "street": "123 Innovation Way",
+                    "city": "Denver",
+                    "zip": "80202"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P006",
+                "title": "Cybersecurity Initiative",
+                "tasks": [
+                    {
+                        "task_id": "T011",
+                        "description": "Risk Assessment",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T012",
+                        "description": "Mitigation Planning",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Olivia Taylor",
+        "contacts": {
+            "email": "olivia.taylor@example.com",
+            "phone": [
+                "+5555555555"
+            ],
+            "address": {
+                "home": {
+                    "street": "345 Ash St",
+                    "city": "San Francisco",
+                    "zip": "94101"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P007",
+                "title": "Data Science Analysis",
+                "tasks": [
+                    {
+                        "task_id": "T013",
+                        "description": "Data Cleaning",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T014",
+                        "description": "Model Evaluation",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "William Anderson",
+        "contacts": {
+            "email": "william.anderson@example.com",
+            "phone": [
+                "+4444444444"
+            ],
+            "address": {
+                "home": {
+                    "street": "555 Oak Lane",
+                    "city": "Boston",
+                    "zip": "02101"
+                }
+            }
+        },
+        "projects": []
+    },
+    {
+        "id": 10,
+        "name": "Amelia Thomas",
+        "contacts": {
+            "email": "amelia.thomas@example.com",
+            "phone": [
+                "+3333333333"
+            ],
+            "address": {
+                "home": {
+                    "street": "876 Willow St",
+                    "city": "Portland",
+                    "zip": "97201"
+                },
+                "office": {
+                    "street": "123 Greenway Blvd",
+                    "city": "Portland",
+                    "zip": "97202"
+                }
+            }
+        },
+        "projects": [
+            {
+                "project_id": "P008",
+                "title": "Cloud Infrastructure Setup",
+                "tasks": [
+                    {
+                        "task_id": "T015",
+                        "description": "Server Provisioning",
+                        "status": "completed"
+                    },
+                    {
+                        "task_id": "T016",
+                        "description": "Load Balancer Configuration",
+                        "status": "in-progress"
+                    }
+                ]
+            }
+        ]
+    }
+]
