@@ -1,0 +1,100 @@
+[
+    {
+        "id_transaksi": 1,
+        "tanggal": "2024-01-01",
+        "detail": [
+            {
+                "produk": "A",
+                "kuantitas": 10,
+                "harga_satuan": 5000,
+                "promosi": [
+                    {
+                        "jenis": "Diskon",
+                        "persentase": 10
+                    },
+                    {
+                        "jenis": "Bonus",
+                        "item_bonus": "Pulpen"
+                    }
+                ]
+            },
+            {
+                "produk": "B",
+                "kuantitas": 5,
+                "harga_satuan": 7000,
+                "promosi": [
+                    {
+                        "jenis": "Diskon",
+                        "persentase": 5
+                    }
+                ]
+            }
+        ],
+        "pelanggan": {
+            "nama": "Andi",
+            "membership": "Gold"
+        }
+    },
+    {
+        "id_transaksi": 2,
+        "tanggal": "2024-01-01",
+        "detail": [
+            {
+                "produk": "A",
+                "kuantitas": 20,
+                "harga_satuan": 5000,
+                "promosi": [
+                    {
+                        "jenis": "Diskon",
+                        "persentase": 5
+                    }
+                ]
+            },
+            {
+                "produk": "C",
+                "kuantitas": 2,
+                "harga_satuan": 10000,
+                "promosi": []
+            }
+        ],
+        "pelanggan": {
+            "nama": "Budi",
+            "membership": "Silver"
+        }
+    },
+    {
+        "id_transaksi": 3,
+        "tanggal": "2024-01-02",
+        "detail": [
+            {
+                "produk": "B",
+                "kuantitas": 8,
+                "harga_satuan": 7000,
+                "promosi": [
+                    {
+                        "jenis": "Diskon",
+                        "persentase": 15
+                    },
+                    {
+                        "jenis": "Gratis Ongkir"
+                    }
+                ]
+            },
+            {
+                "produk": "C",
+                "kuantitas": 1,
+                "harga_satuan": 10000,
+                "promosi": [
+                    {
+                        "jenis": "Bonus",
+                        "item_bonus": "Tas"
+                    }
+                ]
+            }
+        ],
+        "pelanggan": {
+            "nama": "Citra",
+            "membership": "Gold"
+        }
+    }
+]
